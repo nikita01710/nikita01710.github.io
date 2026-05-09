@@ -2,51 +2,104 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nikita Nagal | Portfolio</title>
-  <link rel="stylesheet" href="style1.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header>
-    <h1>Nikita Nagal</h1>
-    <p>Artificial Intelligence & Data Science Student | MBM University</p>
-  </header>
+  <div class="container">
 
-  <section class="container" id="about">
-    <h2>About Me</h2>
-    <p>I am currently pursuing B.E. in Artificial Intelligence and Data Science (2023–2027) from MBM University, Jodhpur. I’m passionate about coding, web development, and exploring data-driven solutions to real-world problems.</p>
-  </section>
+    <!-- HEADER -->
+    <header>
+      <h1>Nikita Nagal</h1>
+      <p>Artificial Intelligence & Data Science Student | MBM University, Jodhpur</p>
+    </header>
 
-  <section class="container" id="skills">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <span>Python</span>
-      <span>C / C++</span>
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-      <span>MySQL</span>
-      <span>Pandas</span>
-      <span>NumPy</span>
-    </div>
-  </section>
+    <!-- ABOUT ME -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I am pursuing a B.E. in Artificial Intelligence and Data Science at MBM University. 
+      I am passionate about web development, machine learning, computer vision, and building practical data-driven solutions. 
+      My focus is creating projects that combine programming skills with real-world problem-solving.</p>
+    </section>
 
-  <section class="container" id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Student Marks Analyzer</strong> — Analyzed marks using Python, Pandas, and visualized trends.</li>
-      <li><strong>COVID-19 Data Tracker</strong> — Tracked and plotted global COVID stats using public datasets.</li>
-      <li><strong>Fake News Detector</strong> — Built a basic ML model to classify fake vs real news (NLP).</li>
-      <li><strong>Personal Portfolio Website</strong> — This responsive portfolio built using HTML, CSS, and hosted via GitHub Pages.</li>
-    </ul>
-  </section>
+    <!-- EDUCATION -->
+    <section id="education">
+      <h2>Education</h2>
+      <div class="edu">
+        <p><strong>B.E. in Artificial Intelligence & Data Science</strong></p>
+        <p>MBM University, Jodhpur | 2023 – 2027 | CGPA: 8.98</p>
+      </div>
+      <div class="edu">
+        <p><strong>Senior Secondary (Class 12 – PCM)</strong></p>
+        <p>Indigo Public Senior Secondary School, Jodhpur | 2022 | Percentage: 96.6%</p>
+      </div>
+    </section>
 
-  <section class="container" id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:nikitanagal1975@gmail.com">nikitanagal1975@gmail.com</a></p>
-  </section>
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <span>Python</span>
+        <span>C / C++</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>MySQL</span>
+        <span>Pandas</span>
+        <span>NumPy</span>
+        <span>Scikit-learn</span>
+        <span>TensorFlow</span>
+        <span>PyTorch</span>
+        <span>OpenCV</span>
+        <span>MediaPipe</span>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Subscription Management System</h3>
+        <p>Full-stack web application for managing user subscriptions. Features include Add/Edit/Delete, validation, remaining days calculation, and toast notifications.</p>
+        <a href="https://github.com/nikita01710/subscription_management_system" target="_blank">View on GitHub</a>
+      </div>
+
+      <div class="project">
+        <h3>Medical Image Classification (Python, PyTorch)</h3>
+        <p>Applied transfer learning (ResNet18) for chest X-ray classification. Preprocessing, augmentation, and fine-tuning achieved ~87% accuracy.</p>
+      </div>
+
+      <div class="project">
+        <h3>Yoga Pose Detection & Feedback (Python, OpenCV, MediaPipe)</h3>
+        <p>Real-time pose detection using body landmarks. Feature engineering and Random Forest classifier achieved ~88% accuracy.</p>
+      </div>
+
+      <div class="project">
+        <h3>CNN-based Fashion MNIST Classification (TensorFlow/Keras)</h3>
+        <p>Developed CNN, tested hyperparameters, and evaluated with accuracy and loss metrics.</p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="exp">
+        <p><strong>Full Stack Development Intern</strong> – Hashedbit Innovations (2-Month Summer Internship)</p>
+        <ul>
+          <li>Developed web applications using React, JavaScript, and Node.js</li>
+          <li>Integrated frontend interfaces with backend APIs</li>
+          <li>Managed data using databases</li>
+          <li>Gained hands-on experience in real-world development</li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
 
   <footer>
     <p>© 2025 Nikita Nagal</p>
